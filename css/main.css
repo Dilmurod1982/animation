@@ -1,0 +1,97 @@
+@import "./main_links.css";
+.box {
+    display: flex;
+    gap: 50rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #e4a654;
+    width: 100%;
+    height: 100%;
+}
+.box-ul {
+    
+}
+.box-ul-one {
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+.box-ul-two {
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+
+
+.box-ul-list-one {
+    width: 300px;
+    height: 100px;    
+    margin-bottom: 2.5rem;
+    padding-top: 2.9rem;
+    border-radius: 2rem;
+    cursor: pointer;    
+}
+.box-ul-list-one:nth-child(1) {
+    background-color: #c93e3e;    
+}
+.box-ul-list-one:nth-child(2) {
+    background-color: #eeeb47;    
+}
+.box-ul-list-one:nth-child(3) {
+    background-color: #7fe025;    
+}
+.box-ul-list-one:nth-child(4) {
+    background-color: #538029;    
+}
+.box-ul-list-one:nth-child(5) {
+    background-color: #35cc67;    
+}
+.box-ul-list-two {
+    width: 300px;
+    height: 100px;    
+    margin-bottom: 2.5rem;
+    padding-top: 2.9rem;
+    border-radius: 2rem;
+    cursor: pointer;    
+}
+.box-ul-list-two:nth-child(1) {
+    background-color: #3de2da;    
+}
+.box-ul-list-two:nth-child(2) {
+    background-color: #299172;    
+}
+.box-ul-list-two:nth-child(3) {
+    background-color: #1d658f;    
+}
+.box-ul-list-two:nth-child(4) {
+    background-color: #9637cc;    
+}
+.box-ul-list-two:nth-child(5) {
+    background-color: #8a1b58;    
+}
+
+.box-ul-link {
+    font-family: 'Convergence';
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+/* body {
+    position: relative;
+}
+.main-menu {
+    position: absolute;
+    top: -100;
+    left: 0;
+    width: 200px;
+    height: 125px;
+    background-color: #7fe025;
+    font-size: 50px;
+} */
